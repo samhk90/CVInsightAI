@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Constraint Form</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="constraint_style.css">
+</head>
+<body>
+
+  <nav class="navbar navbar-dark bg-dark ">
+    <div class="container">
+      <h1 class="navbar-brand">CV Analysis</h1>
+      <ul class="nav justify-content-end">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#about">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#services">services</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#contact-us">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+
+
+  <div class="container">
+    <div class="card mb-3">
+      <div class="card-body">
+        <h2 class="card-title text-center mb-4">Constraint Form</h2>
+        <form>
+          <div class="mb-3">
+            <label for="skill" class="form-label">Skill:</label>
+            <input type="text" class="form-control" id="skill" placeholder="Enter skill">
+          </div>
+          <div class="mb-3">
+            <label for="experience" class="form-label">Experience:</label>
+            <input type="text" class="form-control" id="experience" placeholder="Enter experience">
+          </div>
+          <div class="mb-3">
+            <label for="language" class="form-label">Language:</label>
+            <input type="text" class="form-control" id="language" placeholder="Enter language">
+          </div>
+          <div class="mb-3">
+            <label for="education" class="form-label">Education:</label>
+            <input type="text" class="form-control" id="education" placeholder="Enter education">
+          </div>
+          <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+      </div>
+    </div>
+    <div class="input-group mb-3">
+      <input type="text" class="form-control" placeholder="Search..." aria-label="Search" aria-describedby="button-addon2">
+      <button class="btn btn-primary" type="button" id="button-addon2">Search</button>
+    </div>
+    <table class="table table-striped">
+      <thead>
+        <tr>
+          <th scope="col">Skill</th>
+          <th scope="col">Experience</th>
+          <th scope="col">Language</th>
+          <th scope="col">Education</th>
+        </tr>
+      </thead>
+      <tbody>
+        
+        <tr>
+          <td>HTML</td>
+          <td>Intermediate</td>
+          <td>English</td>
+          <td>Bachelor's Degree</td>
+        </tr>
+        
+      </tbody>
+    </table>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>
